@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0px 10px;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: url(../img/fondo.png) no-repeat 25% 25% fixed;
+  background-size: cover;
+  image-rendering: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  width: 150px;
+  height: auto;
+}
+
+nav {
+  flex: 1;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+li a {
+  color: #f5f5f5;
+  font-weight: bolder;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.6em;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #ff6f00;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+#contenedor {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#informacionUno,
+#informacionDos {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  height: 350px;
+}
+
+#informacionUno .imagen1 {
+  flex: 1;
+  background: url(../img/fondoDale.png) no-repeat center center;
+  background-size: contain;
+}
+#informacionDos .imagen2 {
+  flex: 1;
+  background-image: url(../img/fiesthallow.png);
+  background-size: cover;
+}
+#informacionUno .textoInformacion,
+#informacionDos > article:first-child {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #f5f5f5;
+}
