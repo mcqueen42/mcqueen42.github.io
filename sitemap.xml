@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-  <loc>https://mcqueen42.github.io/</loc>
-</url>
+    <loc>https://mcqueen42.github.io/</loc>
+  </url>
 
-<url>
-  <loc>https://mcqueen42.github.io/mantenimiento/aceite.html</loc>
-</url>
+  <url>
+    <loc>https://mcqueen42.github.io/mantenimiento/aceite.html</loc>
+  </url>
 
-<url>
-  <loc>https://mcqueen42.github.io/mantenimiento/neumaticos.html</loc>
-</url>
+  <url>
+    <loc>https://mcqueen42.github.io/mantenimiento/neumaticos.html</loc>
+  </url>
 
-<url>
-  <loc>https://mcqueen42.github.io/mantenimiento/frenos.html</loc>
-</url>
+  <url>
+    <loc>https://mcqueen42.github.io/mantenimiento/frenos.html</loc>
+  </url>
+
+  <url>
+    <loc>https://mcqueen42.github.io/enlaces.html</loc>
+  </url>
 
 </urlset>
